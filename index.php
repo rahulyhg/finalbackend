@@ -1,7 +1,7 @@
 <?php
 
 require_once './include/DbHandler.php';
-//require_once './include/PassHash.php';
+require_once './include/PassHash.php';
 //require '././libs/Slim/Slim.php';
 //require './vendor/autoload.php';
 //require './include/simple_html_dom.php';
