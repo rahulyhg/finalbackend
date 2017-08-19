@@ -15,4 +15,5 @@ error_reporting(E_ALL);
 // User id from db - Global Variable
 $user_id = NULL;
 phpinfo();
+$app->run();
 ?>
