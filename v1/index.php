@@ -52,6 +52,7 @@ $app->post('/login', function() use ($app) {
 
     echoResponse(200, $response);
 });
+
 $app->post('/register', function() use ($app) {
     // check for required params
     verifyRequiredParams(array('email', 'password'));
